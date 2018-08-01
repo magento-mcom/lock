@@ -1,23 +1,9 @@
 {
-    "name": "malkusch/lock",
+    "name": "magento-com/php-mutex",
     "type": "library",
     "description": "Mutex library for exclusive code execution.",
     "keywords": ["mutex", "lock", "locking", "flock", "semaphore", "redlock", "memcache", "redis", "cas", "advisory locks", "mysql", "postgresql"],
-    "homepage": "https://github.com/malkusch/lock",
-    "license": "WTFPL",
-    "authors": [
-        {
-            "name": "Markus Malkusch",
-            "email": "markus@malkusch.de",
-            "homepage": "http://markus.malkusch.de",
-            "role": "Developer"
-        },
-        {
-            "name": "Willem Stuursma-Ruwen",
-            "email": "willem@stuursma.name",
-            "role": "Developer"
-        }
-    ],
+    "homepage": "https://github.com/magento-mcom/php-mutex",
     "autoload": {
         "psr-4": {"malkusch\\lock\\": "classes/"}
     },
